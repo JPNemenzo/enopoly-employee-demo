@@ -1,0 +1,10 @@
+Place handbook and memo PDFs here.
+
+The paths referenced in lib/services/mock_data.dart expect files named:
+  employee-handbook-2026.pdf
+  code-of-conduct.pdf
+  memo-2026-04-overtime.pdf
+  memo-2026-03-safety.pdf
+
+This folder is declared in pubspec.yaml, so it must exist for the build to
+succeed even while it is empty.
